@@ -20,28 +20,36 @@ Database integration for secure storage of product and user information
 
 📂 Project Structure
 
-|-- index.php                 # 🏠 Main entry point of the website
-|-- css/                      # 🎨 Directory for CSS styles
-|   |-- style.css              # Main stylesheet
-|   |-- (other CSS files)      # Additional stylesheets
-|-- js/                       # 🚀 Directory for JavaScript files
-|   |-- script.js              # Main JavaScript file
-|   |-- (other JS files)       # Other JavaScript files
-|-- php/                      # 🧩 PHP files and scripts
-|   |-- config.php             # Database connection and configuration
-|   |-- auth.php               # User authentication scripts
-|   |-- (other PHP files)      # Other PHP scripts
-|-- includes/                 # 🔄 Directory for reusable components or snippets
-|   |-- header.php             # Header component
-|   |-- footer.php             # Footer component
-|   |-- (other include files)  # Other reusable components
-|-- admin/                    # 🔒 Admin panel files 
-|   |-- admin.php              # Admin dashboard
-|   |-- manage_products.php    # Product management
-|   |-- (other admin files)    # Other admin functionalities
-|-- database/                 # 💾 Database-related files 
-|   |-- schema.sql             # Database schema
-|   |-- (other DB files)       # Other database-related files
+📁 Project Root
+  |
+  |-- 📄 index.php                  # Main entry point of the website
+  |
+  |-- 📁 css                        # Stylesheets
+  |     |-- 📄 style.css            # Main stylesheet
+  |     |-- 📄 (other CSS files)    # Additional stylesheets
+  |
+  |-- 📁 js                         # JavaScript files
+  |     |-- 📄 script.js           # Main JavaScript file
+  |     |-- 📄 (other JS files)    # Other JavaScript files
+  |
+  |-- 📁 php                        # PHP scripts
+  |     |-- 📄 config.php          # Database connection and configuration
+  |     |-- 📄 auth.php            # User authentication scripts
+  |     |-- 📄 (other PHP files)   # Other PHP scripts
+  |
+  |-- 📁 includes                   # Reusable components
+  |     |-- 📄 header.php          # Header component
+  |     |-- 📄 footer.php          # Footer component
+  |     |-- 📄 (other include files) # Other reusable components
+  |
+  |-- 📁 admin                      # Admin panel files
+  |     |-- 📄 admin.php           # Admin dashboard
+  |     |-- 📄 manage_products.php # Product management
+  |     |-- 📄 (other admin files) # Other admin functionalities
+  |
+  |-- 📁 database                   # Database-related files
+        |-- 📄 schema.sql          # Database schema
+        |-- 📄 (other DB files)    # Other database-related files
 
 
 
