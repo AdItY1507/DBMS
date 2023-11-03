@@ -6,7 +6,7 @@ HTML
 CSS
 JavaScript
 PHP
-MySQL (or any database management system used)
+
 
 
 ✨ Features
@@ -21,35 +21,23 @@ Database integration for secure storage of product and user information
 📂 Project Structure
 
 📁 Project Root
-  |
-  |-- 📄 index.php                  # Main entry point of the website
-  |
-  |-- 📁 css                        # Stylesheets
-  |     |-- 📄 style.css            # Main stylesheet
-  |     |-- 📄 (other CSS files)    # Additional stylesheets
-  |
-  |-- 📁 js                         # JavaScript files
-  |     |-- 📄 script.js           # Main JavaScript file
-  |     |-- 📄 (other JS files)    # Other JavaScript files
-  |
-  |-- 📁 php                        # PHP scripts
-  |     |-- 📄 config.php          # Database connection and configuration
-  |     |-- 📄 auth.php            # User authentication scripts
-  |     |-- 📄 (other PHP files)   # Other PHP scripts
-  |
-  |-- 📁 includes                   # Reusable components
-  |     |-- 📄 header.php          # Header component
-  |     |-- 📄 footer.php          # Footer component
-  |     |-- 📄 (other include files) # Other reusable components
-  |
-  |-- 📁 admin                      # Admin panel files
-  |     |-- 📄 admin.php           # Admin dashboard
-  |     |-- 📄 manage_products.php # Product management
-  |     |-- 📄 (other admin files) # Other admin functionalities
-  |
-  |-- 📁 database                   # Database-related files
-        |-- 📄 schema.sql          # Database schema
-        |-- 📄 (other DB files)    # Other database-related files
+ 📄 index.php                     # Main entry point of the website
+  📁 css                          # Stylesheets
+       📄 style.css               # Main stylesheet
+       📄 (other CSS files)       # Additional stylesheet
+  📁 js                           # JavaScript files
+       📄 script.js               # Main JavaScript file
+    📁 php                        # PHP scripts
+       📄 config.php              # Database connection and configuration
+       📄 auth.php                # User authentication script
+   📁 includes                    # Reusable components
+       📄 header.php              # Header component
+       📄 footer.php              # Footer component
+   📁 admin                       # Admin panel files
+       📄 admin.php               # Admin dashboard
+       📄 manage_products.php     # Product management
+    📁 database                     # Database-related files
+        📄 schema.sql             # Database schema
 
 
 
